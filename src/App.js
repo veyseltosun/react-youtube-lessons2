@@ -1,4 +1,5 @@
 import { useState } from "react";
+import User from "./User";
 
 const data = [
   {name: "Ahmet"},
@@ -22,9 +23,9 @@ function App() {
        />
 
        {users.map((user, index)  => {
-        const{name} = user;
+        
         return(
-          <p key={index}>{name}</p>
+         <User user={user} key={index}/>
         )
        } )}
 

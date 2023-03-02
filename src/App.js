@@ -31,6 +31,8 @@ function App() {
         <option value="izmir">İzmir</option>
 
       </select>
+      <textarea rows="10" placeholder="biyografiniz" name="bio"/>
+      <button >Gönder</button>
 
       </form>
 

@@ -17,18 +17,24 @@ function App() {
   return (
     <div className="App">
       <h1>React Dersleri</h1>
+      <form>
       <input 
-       name="arama"
-       placeholder="arama"
+       name="name"
+       placeholder="your name"
        />
+      <select name="city">
+        <option value="" disabled selected hidden>
+          Chose a city
+        </option>
+        <option value="ankara"> Ankara</option>
+        <option value="istanbul">İstanbul</option>
+        <option value="izmir">İzmir</option>
 
-       {users.map((user, index)  => {
-        
-        return(
-         <User user={user} key={index}/>
-        )
-       } )}
+      </select>
 
+      </form>
+
+       
     </div>
   );
 }

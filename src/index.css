@@ -18,15 +18,26 @@ code {
 }
 
 .App {
-  margin: 3rem;
-  height: 30rem;
- background-color: coral;
+ 
+  
+}
+
+.country {
+  margin: 5px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 1px solid grey;
   border-radius: 3px;
   
 }
+img{
+  height: auto;
+  margin: 2px;
+  width: 200px;
+}
+.text {
+  margin-left: 10px;
+}
+
 
 form{
   justify-content: center;

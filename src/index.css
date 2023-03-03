@@ -36,7 +36,7 @@ form{
 input{
   display: block;
   height: 30px;
-  width: 13rem;
+  width: 99%;
   border: none;
   border-radius: 3px;
   background-color: antiquewhite;
@@ -48,20 +48,23 @@ select{
   margin-top: 10px;
   border-radius: 3px;
   display: block;
-  width: 13.4rem;
+  width: 100%;
+  border:none;
+  background-color: antiquewhite;
 }
 textarea{
   margin-top: 10px;
-  width:13rem ;
+  width:99%;
   display: block;
   border: none;
   background-color: antiquewhite;
   cursor: pointer;
+  border-radius: 3px;
 
 }
 
 button{
-  width: 13rem;
+  width: 100%;
   margin-top: 10px;
   height: 30px;
   border-radius: 3px;

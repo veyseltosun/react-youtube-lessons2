@@ -11,7 +11,9 @@ function App() {
    return (
     <div className="App">
 
-      <h2>Funtional Component</h2>
+      <h2>Functional Component</h2>
+
+      <p>{counter}</p>
       
       
        

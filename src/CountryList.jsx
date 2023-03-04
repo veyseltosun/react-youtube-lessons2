@@ -1,11 +1,7 @@
 import React from 'react'
 
-const CountryList = () => {
-  return 
-    // <div>
-    //     <h1>{props.head}</h1>
-    //     <h3>Konu: {props.konu}</h3>
-    // </div>
+const CountryList = (props) => {
+  return <div style={{border:"5px solid #333"}}>{props.children} </div>
   
 }
 

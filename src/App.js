@@ -1,36 +1,19 @@
+import { useState } from "react";
 
-import CountryList from "./CountryList";
-import SearchForm from "./SearchForm";
+
 
 function App() {
+
+  const [counter, setCounter] = useState(0);
+
   
 
    return (
     <div className="App">
+
+      <h2>Funtional Component</h2>
       
-      <SearchForm head="React Dersleri" subject="Bilesim vs. Kalitim" >
-
-        <p>
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-          Lorem ipsum sit amet dolar.
-        </p>
-        <img src="https://cdn.pixabay.com/photo/2019/08/29/19/48/cobweb-4439844__340.jpg" alt=""      />
-
-
-      </SearchForm>
-      <CountryList/>
-     
+      
        
     </div>
   );

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import ClassComp from "./ClassComp";
 
 
@@ -10,6 +10,10 @@ function App() {
   const increase = () => {
     setCounter(counter + 1)
   }
+
+  useEffect(() => {
+    console.log("useEffect is run")
+  },[counter])
 
   
 

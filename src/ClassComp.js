@@ -5,6 +5,13 @@ export class ClassComp extends Component {
         counter: 0,
     };
 
+    componentDidMount() {
+        console.log("componentDidMount çalıştı..")
+    }
+    componentDidUpdate() {
+        console.log("componentDidUpdate çalıştı..")
+    }
+
     increase = () =>  {
         this.setState({counter: this.state.counter + 1})
     }

@@ -6,6 +6,8 @@ import ClassComp from "./ClassComp";
 function App() {
 
   const [counter, setCounter] = useState(0);
+  const [show, setShow] = useState(true);
+
 
   const increase = () => {
     setCounter(counter + 1)
@@ -21,6 +23,7 @@ function App() {
     <>
     <div className="App">
 
+    <button onClick={() => setShow(!show)}>Toggle</button>
       <h2>Functional Component</h2>
 
       <p>{counter}</p>
@@ -29,7 +32,10 @@ function App() {
       
        
     </div>
-    <ClassComp/>
+    {
+      show ?  <ClassComp/> : <div/>
+      
+    }
     </>
   );
 }
